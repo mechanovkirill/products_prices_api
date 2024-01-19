@@ -1,0 +1,52 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Django related files
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm files
+.idea/
+
+# Ignore the migration folders, as they contain database-specific files
+**/migrations/
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore logs
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore test database
+db.sqlite3
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore VSCode settings
+.vscode/
